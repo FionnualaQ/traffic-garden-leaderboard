@@ -53,7 +53,7 @@ body {
   margin-top: 10px;
   padding-top: 10px;
   width: max-content;
-  max-width: 75vw;
+  max-width: calc(100vw - 150px);
 }
 
 @media (min-width: 768px) {
@@ -85,9 +85,14 @@ body {
 
 .details-content-row {
   display: grid;
-  grid-template-columns: 20px 1fr;
+  grid-template-columns: 20px minmax(0, 1fr);
   column-gap: 4px;
   margin-bottom: 2px;
+}
+
+.details-content-row p {
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .details-content-row .marker {
