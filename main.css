@@ -36,14 +36,18 @@ body {
   width: 80px;
 }
 
-@media (max-width: 767px) {
-  .table th:first-child {
-    width: 50px;
-  }
-}
-
 .table th:last-child {
   width: 150px;
+}
+
+@media (max-width: 767px) {
+  .table th:first-child {
+    width: 70px;
+  }
+
+  .table th:last-child {
+    width: 100px;
+  }
 }
 
 .expandable-row {
