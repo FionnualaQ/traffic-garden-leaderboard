@@ -27,7 +27,8 @@ body {
   table-layout: fixed;
   padding: 20px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  --bs-table-striped-bg: #a1bdfd41 !important;
+  --bs-table-bg: #fae9cd7b !important;
+  --bs-table-striped-bg: #99cdbd6a !important;
 }
 
 .table th:first-child {
